@@ -8,7 +8,7 @@ import {
 
 export default function NavigationBar() {
   return (
-    <nav className="rounded-base flex items-center justify-around w-full max-w-4xl mx-auto h-16 bg-accent-1 lg:mt-10 mt-5 shadow-shadow">
+    <nav className="rounded-base flex items-center justify-around w-full max-w-6xl mx-auto h-16 bg-accent-1 lg:mt-10 mt-5 shadow-shadow">
       <section id="navigation-logo"></section>
       <section id="navigation-menu">
         <Menubar className="bg-transparent border-0 gap-6">
@@ -44,6 +44,14 @@ export default function NavigationBar() {
             <MenubarTrigger className="hover:shadow-shadow">
               Contact
             </MenubarTrigger>
+            <MenubarContent className="bg-accent-1">
+              <MenubarItem>Gmail</MenubarItem>
+              <MenubarItem>LinkedIn</MenubarItem>
+              <MenubarItem>GitHub</MenubarItem>
+              <MenubarItem>Twitter</MenubarItem>
+              <MenubarItem>Instagram</MenubarItem>
+              <MenubarItem>WhatsApp</MenubarItem>
+              </MenubarContent>
           </MenubarMenu>
         </Menubar>
       </section>

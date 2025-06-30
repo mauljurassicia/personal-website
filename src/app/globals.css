@@ -88,3 +88,8 @@
     @apply font-heading;
   }
 }
+
+html {
+  cursor: none;
+  
+}
