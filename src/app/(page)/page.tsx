@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "./_components/hero";
 import HeroDetail from "./_components/hero-detail";
+import Timeline from "./_components/timeline";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
         <Hero />
         <HeroDetail />
       </section>
-      <section id="story"></section>
+      <section id="story">
+        <Timeline />
+      </section>
       <section id="skill" className="px-[5%] py-20 bg-muted">
         <div className="max-w-5xl mx-auto space-y-12">
           <h2 className="text-3xl font-bold text-center">My Skillset</h2>

@@ -18,10 +18,9 @@ export default function NavigationBar() {
             </MenubarTrigger>
             <MenubarContent className="bg-accent-1 ">
               <MenubarItem>Hero</MenubarItem>
-              <MenubarItem>Skill</MenubarItem>
               <MenubarItem>Story</MenubarItem>
+              <MenubarItem>Skill</MenubarItem>
               <MenubarItem>Portfolio</MenubarItem>
-              
             </MenubarContent>
           </MenubarMenu>
           <MenubarMenu>
@@ -51,7 +50,7 @@ export default function NavigationBar() {
               <MenubarItem>Twitter</MenubarItem>
               <MenubarItem>Instagram</MenubarItem>
               <MenubarItem>WhatsApp</MenubarItem>
-              </MenubarContent>
+            </MenubarContent>
           </MenubarMenu>
         </Menubar>
       </section>
